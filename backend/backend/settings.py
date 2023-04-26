@@ -1,4 +1,4 @@
-# Application definition
+
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -29,8 +29,6 @@ REST_FRAMEWORK = {
     ),
 }
 
-# Add the following at the end of the file
 AUTH_USER_MODEL = 'api.User'
 
-# The rest of the settings.py file remains unchanged.
 
